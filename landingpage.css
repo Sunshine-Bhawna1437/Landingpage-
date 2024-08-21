@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+    padding-bottom: 50px;
+    background-color: #f7d263;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .navbar {
+    position: fixed;
+    background-color: #222;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: rgb(114, 233, 177);
+    height: 60px;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .navbar li{
+    font-size: 20px;
+    margin: 7%;
+    position: relative;
+    bottom: 20px;
+    font-family:cursive;
+
+  }
+  .navbar li:hover {
+    color: #df126b;
+    cursor: pointer;
+  }
+  .navbar h1:hover {
+    color: #df126b;
+    cursor: pointer;
+  }
+  .navbar h1{
+     position: relative;
+    bottom: 20px;
+    font-size: 40px;
+    font-family:cursive;
+    right: 140px;
+  }
+  .hero {
+    background-image: url('shop.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom center;
+    height: 900px;
+    color: #121111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: -2;
+    top: -90px;
+    
+  }
+ .img{
+  width: 800px;
+  height: 50px;
+  position: relative;
+  top: -250px;
+  left: 350px;
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #df126b;
+ }
+ .img2{
+  width: 550px;
+  height: 50px;
+  position: relative;
+  top: 40px;
+  left: 200px;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #050505;
+  /* border: 2px solid red; */
+  display: block;
+  gap: 20px;
+
+ }
+ .img2 pre{
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: bolder;
+ }
+ .content h2,
+.content h3 {
+  font-size: 250%;
+  margin: auto;
+}
+
+.content p {
+  color: #555;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+}
+.navbar.active {
+  background-color: #fff;
+}
